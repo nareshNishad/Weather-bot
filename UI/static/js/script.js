@@ -54,7 +54,7 @@ function send(message) {
     },
     error: function (errorMessage) {
       setBotResponse("");
-      console.log("Error" + errorMessage);
+      console.log("Error", errorMessage);
     },
   });
 }

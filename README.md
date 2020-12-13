@@ -22,6 +22,6 @@ Paste your openweather key in weather.py
 
 3. To initiate and run the chatbot and conversate in UI.
 
-> rasa run -m models --enable-api --cors "\*" --debug
+> rasa run --model models --enable-api --cors "\*" --debug
 
 Now open the index.html file and start your conversation with my chatbot !!
